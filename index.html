@@ -16,7 +16,7 @@
 </head>
 
 <body>
-    <div class="container-fluid p-2">
+    <!-- <div class="container-fluid p-2">
         <div class="container-fluid bg-light d-flex justify-content-between">
             <i class="fa-brands fa-instagram fa-2x d-flex">
                 <h3>Instagram</h3>
@@ -41,7 +41,47 @@
                 </ul>
             </div>
         </div>
-    </div>
+    </div> -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid d-flex justify-content-between">
+            <a class="navbar-brand" href="#"><i class="fa-brands fa-instagram fa-2x d-flex">
+                    <h2>Instagram</h2>
+                </i></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto d-flex align-items-center ">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"> <button type="button"
+                                class="btn btn-success p-1.5 ms-auto" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                Create a new post
+                            </button></a>
+                    </li>
+                    <li class="nav-item d-flex">
+                            <div class="dropdown btn-group dropstart rounded">
+                                <button class="btn btn-secondary" type="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i><i class="fa-solid fa-gear"></i></i>
+                                </button>
+                                <ul class="dropdown-menu p-3">
+                                    <li><a class="dropdown-item" href="#">Profile</a></li>
+                                    <li><a class="dropdown-item" href="#">Accesibility</a></li>
+                                    <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item text-danger" href="#">Log out</a></li>
+                                </ul>
+                            </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
     <div class="container-fluid p-4">
         <ul class="nav nav-pills mb-3 nav justify-content-center" id="pills-tab" role="tablist">
             <li class="nav-item" role="presentation">
@@ -97,7 +137,7 @@
                 tabindex="0">
 
                 <div class="container d-flex flex-column align-items-center">
-                    <div class="card my-5" style="width: 18rem;">
+                    <div class="card my-5 w-100" style=" max-width: 50rem; ">
 
                         <div class="card-header d-flex justify-content-between align-items-center">
 
@@ -113,7 +153,7 @@
                             <p class="card-text"><small class="text-body-secondary">Last updated 7 mins ago.</small></p>
                         </div>
                     </div>
-                    <div class="card my-5" style="width: 18rem;">
+                    <div class="card my-5 w-100" style=" max-width: 50rem; ">
 
                         <div class="card-header d-flex justify-content-between align-items-center">
 
@@ -129,7 +169,7 @@
                             <p class="card-text"><small class="text-body-secondary">Last updated 7 mins ago.</small></p>
                         </div>
                     </div>
-                    <div class="card my-5" style="width: 18rem;">
+                    <div class="card my-5 w-100" style=" max-width: 50rem;">
 
                         <div class="card-header d-flex justify-content-between align-items-center">
 
